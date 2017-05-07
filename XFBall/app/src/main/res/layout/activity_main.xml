@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cglin.xfball.MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.请打开悬浮窗权限:设置->悬浮窗管理->XFBall"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.请打开XFBall服务:设置->辅助功能->服务->XFBall"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.请打开锁屏权限：设置->安全与隐私->设备管理器->XFBall->激活"
+            android:textSize="18sp"/>
+        <Button
+        android:id="@+id/start_float_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+       />
+</LinearLayout>
